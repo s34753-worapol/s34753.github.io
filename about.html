@@ -1,58 +1,321 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>About Us | CarWash</title>
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="assets/css/style.css">
+
 </head>
+
+
 <body>
 
-  <header>
-    <div class="logo">
-      <div class="logo-icon"></div>
-      <span>COMPANY NAME</span>
-    </div>
-    <ul class="nav-links">
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="about.html" class="active">ABOUT US</a></li>
-      <li><a href="portfolio.html">PORTFOLIO</a></li>
-      <li><a href="contact.html">CONTACT US</a></li>
-      <li><a href="contact.html" class="btn-get-started">GET STARTED</a></li>
-    </ul>
-  </header>
 
-  <main>
-    <div class="section-container">
-      <h2 class="section-title">ABOUT US</h2>
-      <div class="underline-accent"></div>
-      
-      <div class="about-content">
-        <div class="about-card">
-          <h3>ประวัติและการทำงาน</h3>
-          <p>
-            ผมเป็นนักพัฒนาเว็บไซต์และดีไซเนอร์ที่มุ่งมั่นในการสร้างสรรค์ประสบการณ์ดิจิทัลที่สวยงามและใช้งานง่าย (UX/UI & Frontend Developer)
-          </p>
-          <p>
-            มีความเชี่ยวชาญด้าน HTML, CSS, JavaScript และเครื่องมือการออกแบบสมัยใหม่
-          </p>
+<!-- HEADER -->
+
+<div class="topbar">
+
+    <div class="topbar-left">
+
+        <span>☎ Live Chat</span>
+
+        <span>✉ info@carwash.com</span>
+
+        <span>◷ Sun - Fri (08AM - 10PM)</span>
+
+    </div>
+
+    <div class="social">
+
+        <a href="#">f</a>
+        <a href="#">𝕏</a>
+        <a href="#">◎</a>
+        <a href="#">in</a>
+
+    </div>
+
+</div>
+
+
+<header>
+
+    <div class="navbar container">
+
+        <a href="index.html" class="logo">
+            🚙 car<span>wash</span>
+        </a>
+
+        <button class="menu-btn">
+            ☰
+        </button>
+
+        <nav class="nav-menu">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html" class="active">
+                About
+            </a>
+
+            <a href="services.html">
+                Services
+            </a>
+
+            <a href="portfolio.html">
+                Portfolio
+            </a>
+
+            <a href="blog.html">
+                Blog
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+        <div class="booking">
+
+            <small>
+                Need Booking?
+            </small>
+
+            <strong>
+                +66 123 456 789
+            </strong>
+
         </div>
 
-        <div class="about-card">
-          <h3>ทักษะและความสามารถ</h3>
-          <p><i class="fa-solid fa-check icon-check"></i> Web Design & UI Concept</p>
-          <p><i class="fa-solid fa-check icon-check"></i> Frontend Development (HTML/CSS/JS)</p>
-          <p><i class="fa-solid fa-check icon-check"></i> Responsive Web Application</p>
-          <p><i class="fa-solid fa-check icon-check"></i> GitHub & Version Control</p>
-        </div>
-      </div>
     </div>
-  </main>
 
-  <script src="script.js"></script>
+</header>
+
+
+<!-- PAGE TITLE -->
+
+<section class="page-title">
+
+    <div class="container">
+
+        <p class="eyebrow">
+            ABOUT US
+        </p>
+
+        <h1>
+            เกี่ยวกับเรา
+        </h1>
+
+        <p>
+            บริการดูแลรถยนต์ด้วยความใส่ใจ
+            ในทุกรายละเอียด
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="page-section">
+
+    <div class="container two-col">
+
+        <div>
+
+            <img
+                src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=1000&q=85"
+                alt="Car Care">
+
+        </div>
+
+
+        <div class="content">
+
+            <p class="eyebrow">
+                WHO WE ARE
+            </p>
+
+            <h2>
+                เราใส่ใจรถของคุณ
+                เหมือนรถของเรา
+            </h2>
+
+            <p>
+                CarWash คือบริการล้างรถ
+                และดูแลรถยนต์แบบครบวงจร
+                ที่เน้นคุณภาพ ความสะอาด
+                และความพึงพอใจของลูกค้า
+            </p>
+
+            <p>
+                เราคัดเลือกผลิตภัณฑ์และอุปกรณ์
+                ที่เหมาะกับรถยนต์แต่ละประเภท
+                พร้อมทีมงานที่ผ่านการฝึกอบรม
+            </p>
+
+            <a href="services.html"
+                class="btn">
+
+                ดูบริการของเรา →
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- STATS -->
+
+    <div class="container stats">
+
+        <div class="stat">
+
+            <strong>
+                10+
+            </strong>
+
+            ปีประสบการณ์
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>
+                5K+
+            </strong>
+
+            รถที่ดูแล
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>
+                20+
+            </strong>
+
+            บริการ
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>
+                98%
+            </strong>
+
+            ความพึงพอใจ
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <a href="index.html" class="logo">
+                🚙 car<span>wash</span>
+            </a>
+
+            <p>
+                Professional Car Wash
+                & Car Care Service
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Quick Links
+            </h3>
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="services.html">
+                Services
+            </a>
+
+            <a href="portfolio.html">
+                Portfolio
+            </a>
+
+            <a href="blog.html">
+                Blog
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Contact
+            </h3>
+
+            <p>
+                +66 123 456 789
+            </p>
+
+            <p>
+                info@carwash.com
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 CarWash.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
