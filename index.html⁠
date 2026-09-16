@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Modern Dark Theme</title>
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- นำเข้าไฟล์ CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar Navigation -->
+  <header>
+    <div class="logo">
+      <div class="logo-icon"></div>
+      <span>COMPANY NAME</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">HOME</a></li>
+      <li><a href="#about">ABOUT US</a></li>
+      <li><a href="#portfolio">PORTFOLIO</a></li>
+      <li><a href="#contact">CONTACT US</a></li>
+      <li><a href="#contact" class="btn-get-started">GET STARTED</a></li>
+    </ul>
+  </header>
+
+  <!-- 1. Home Section (หน้าแรก) -->
+  <section id="home" class="home-section">
+    <div class="hero-text">
+      <h1>FASHION<br>LANDING PAGE</h1>
+      <div class="underline-accent"></div>
+      <p>
+        ยินดีต้อนรับสู่พอร์ตโฟลิโอส่วนตัว รวมผลงานการออกแบบ โค้ดดิ้ง และโปรเจกต์สร้างสรรค์สไตล์โมเดิร์น พร้อมดีไซน์โทนเข้มสุดพรีเมียม
+      </p>
+      <a href="#about" class="btn-read-more">READ MORE</a>
+    </div>
+
+    <div class="hero-graphic">
+      <div class="main-circle"></div>
+      <div class="circle-ring"></div>
+    </div>
+  </section>
+
+  <!-- 2. About Us Section (เกี่ยวกับฉัน) -->
+  <section id="about">
+    <div class="section-container">
+      <h2 class="section-title">ABOUT US</h2>
+      <div class="underline-accent"></div>
+      
+      <div class="about-content">
+        <div class="about-card">
+          <h3>ประวัติและการทำงาน</h3>
+          <p>
+            ผมเป็นนักพัฒนาเว็บไซต์และดีไซเนอร์ที่มุ่งมั่นในการสร้างสรรค์ประสบการณ์ดิจิทัลที่สวยงามและใช้งานง่าย (UX/UI & Frontend Developer)
+          </p>
+          <p>
+            มีความเชี่ยวชาญด้าน HTML, CSS, JavaScript และเครื่องมือการออกแบบสมัยใหม่
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>ทักษะและความสามารถ</h3>
+          <p><i class="fa-solid fa-check icon-check"></i> Web Design & UI Concept</p>
+          <p><i class="fa-solid fa-check icon-check"></i> Frontend Development (HTML/CSS/JS)</p>
+          <p><i class="fa-solid fa-check icon-check"></i> Responsive Web Application</p>
+          <p><i class="fa-solid fa-check icon-check"></i> GitHub & Version Control</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Portfolio Section (ผลงาน) -->
+  <section id="portfolio">
+    <div class="section-container">
+      <h2 class="section-title">PORTFOLIO</h2>
+      <div class="underline-accent"></div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
+          <div class="portfolio-info">
+            <h4>E-Commerce Design</h4>
+            <p>ออกแบบ UI แพลตฟอร์มการซื้อขายสินค้าออนไลน์ ดีไซน์ทันสมัยน่าใช้งาน</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <div class="portfolio-info">
+            <h4>Mobile Application UI</h4>
+            <p>การดีไซน์แอปพลิเคชันสำหรับ iOS และ Android เน้นความลื่นไหลของระบบ</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <i class="fa-solid fa-paint-brush"></i>
+          </div>
+          <div class="portfolio-info">
+            <h4>Branding & Identity</h4>
+            <p>การสร้างอัตลักษณ์ของแบรนด์ โลโก้ และโทนสีเพื่อสื่อสารแบรนด์ให้โดดเด่น</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Contact Us Section (ติดต่อ) -->
+  <section id="contact">
+    <div class="section-container">
+      <h2 class="section-title">CONTACT US</h2>
+      <div class="underline-accent"></div>
+
+      <div class="contact-wrapper">
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="ชื่อของคุณ (Name)" required>
+          <input type="email" placeholder="อีเมล (Email)" required>
+          <textarea placeholder="ข้อความของคุณ (Message)" required></textarea>
+          <button type="submit">SEND MESSAGE</button>
+        </form>
+
+        <div class="contact-details">
+          <div class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p class="text-sub">yourname@email.com</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p class="text-sub">+66 81 234 5678</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Location</h4>
+              <p class="text-sub">Bangkok, Thailand</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- นำเข้าไฟล์ JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
