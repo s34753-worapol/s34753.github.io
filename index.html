@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex: 1;
+        }
+        .hero-content { max-width: 480px; }
+        .title { font-size: 3.5rem; font-weight: 400; line-height: 1.1; letter-spacing: 2px; }
+        .subtitle { font-weight: 700; }
+        .description { font-size: 0.85rem; color: #a0a5c0; line-height: 1.6; margin-bottom: 2rem; }
+        
+        .hero-graphic {
+            position: relative;
+            width: 450px;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .gradient-circle {
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ff5252 0%, #ff7a00 100%);
+        }
+        .circle-border {
+            position: absolute;
+            width: 440px;
+            height: 440px;
+            border-radius: 50%;
+            border: 3px solid transparent;
+            border-top-color: #ff7a00;
+            border-bottom-color: #ff5252;
+            transform: rotate(-45deg);
+        }
+        @media (max-width: 900px) {
+            .hero { flex-direction: column-reverse; text-align: center; gap: 3rem; }
+            .hero-graphic { width: 300px; height: 300px; }
+            .gradient-circle { width: 260px; height: 260px; }
+            .circle-border { width: 290px; height: 290px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">●</span>
+            <span class="logo-text">MY PORTFOLIO</span>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="active">หน้าแรก</a>
+            <a href="about.html">เกี่ยวกับฉัน</a>
+            <a href="portfolio.html">ผลงาน</a>
+            <a href="contact.html">ติดต่อ</a>
+            <a href="contact.html" class="btn-start">เริ่มต้นใช้งาน</a>
+        </nav>
+    </header>
+
+    <main class="page-container hero">
+        <div class="hero-content">
+            <h1 class="title">FASHION<br><span class="subtitle">LANDING PAGE</span></h1>
+            <div class="underline"></div>
+            <p class="description">
+                ยินดีต้อนรับสู่พอร์ตโฟลิโอมุมมองใหม่ สำหรับนำเสนอผลงาน การดีไซน์ และประสบการณ์การทำงานในสไตล์โมเดิร์น
+            </p>
+            <a href="about.html" class="btn-primary">อ่านเพิ่มเติม</a>
+        </div>
+
+        <div class="hero-graphic">
+            <div class="circle-border"></div>
+            <div class="gradient-circle"></div>
+        </div>
+    </main>
+
+    <footer>
+        © 2026 My Portfolio. All rights reserved.
+    </footer>
+
+</body>
+</html>
